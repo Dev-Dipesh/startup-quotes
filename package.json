@@ -1,8 +1,15 @@
 {
   "name": "startup-quotes",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Random Startup Quotes for motivating team and entrepreneurs.",
   "main": "index.js",
+  "bin": {
+    "startup-quotes": "index.js"
+  },
+  "files": [
+    "index.js",
+    "quotes.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +29,11 @@
   ],
   "author": "Dipesh Bhardwaj <dipesh@sleeker.co>",
   "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "yosay": "^1.2.1",
+    "chalk": "^1.1.3"
+  },
   "bugs": {
     "url": "https://github.com/Dev-Dipesh/startup-quotes/issues"
   },
