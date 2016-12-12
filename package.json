@@ -1,0 +1,29 @@
+{
+  "name": "startup-quotes",
+  "version": "1.0.0",
+  "description": "Random Startup Quotes for motivating team and entrepreneurs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Dipesh/startup-quotes"
+  },
+  "keywords": [
+    "startup",
+    "quotes",
+    "sillicon",
+    "valley",
+    "entrepreneurs",
+    "team",
+    "founders",
+    "motivational"
+  ],
+  "author": "Dipesh Bhardwaj <dipesh@sleeker.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dev-Dipesh/startup-quotes/issues"
+  },
+  "homepage": "https://github.com/Dev-Dipesh/startup-quotes#readme"
+}
